@@ -1,18 +1,57 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a className='App-link' href='https://reactjs.org' target='_blank' rel='noopener noreferrer'>
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <div>
+        <ul className='clock'>
+          <li className='numbers'>
+            <span>1</span>
+          </li>
+          <li className='numbers'>
+            <span>2</span>
+          </li>
+          <li className='numbers'>
+            <span>3</span>
+          </li>
+          <li className='numbers'>
+            <span>4</span>
+          </li>
+          <li className='numbers'>
+            <span>5</span>
+          </li>
+          <li className='numbers'>
+            <span>6</span>
+          </li>
+          <li className='numbers'>
+            <span>7</span>
+          </li>
+          <li className='numbers'>
+            <span>8</span>
+          </li>
+          <li className='numbers'>
+            <span>9</span>
+          </li>
+          <li className='numbers'>
+            <span>10</span>
+          </li>
+          <li className='numbers'>
+            <span>11</span>
+          </li>
+          <li className='numbers'>
+            <span>12</span>
+          </li>
+          {/* <li className='hours'>
+            <span>hour</span>
+          </li>
+          <li className='minutes'>
+            <span>minute</span>
+          </li>
+          <li className='seconds'>
+            <span>second</span>
+          </li> */}
+        </ul>
+      </div>
     </div>
   );
 }
