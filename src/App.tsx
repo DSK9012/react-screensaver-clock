@@ -41,7 +41,7 @@ function App() {
           <li className='numbers'>
             <span>12</span>
           </li>
-          {/* <li className='hours'>
+          <li className='hours'>
             <span>hour</span>
           </li>
           <li className='minutes'>
@@ -49,8 +49,15 @@ function App() {
           </li>
           <li className='seconds'>
             <span>second</span>
-          </li> */}
+          </li>
         </ul>
+        <div>
+          <ul className='digital-clock'>
+            <li className='digital-hours'>10</li>
+            <li className='digital-minutes'>12</li>
+            <li className='digital-seconds'>22</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
