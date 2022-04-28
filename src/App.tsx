@@ -55,13 +55,26 @@ function App() {
             <li className='numbers'>
               <span>12</span>
             </li>
-            <li className='hours'>
+            <li
+              className='hours'
+              style={{
+                transform: `translate(-50%, 0%) rotate(${date.getHours() * 30 + date.getMinutes() / 2 - 180}deg)`,
+              }}
+            >
               <span>hour</span>
             </li>
-            <li className='minutes'>
+            <li
+              className='minutes'
+              style={{
+                transform: `translate(-50%, 0%) rotate(${date.getMinutes() * 6 - 180}deg)`,
+              }}
+            >
               <span>minute</span>
             </li>
-            <li className='seconds'>
+            <li
+              className='seconds'
+              style={{ transform: `translate(-50%, 0%) rotate(${date.getSeconds() * 6 - 180}deg)` }}
+            >
               <span>second</span>
             </li>
           </ul>
