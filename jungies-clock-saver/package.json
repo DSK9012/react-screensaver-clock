@@ -1,0 +1,17 @@
+{
+  "name": "clock-saver",
+  "version": "1.0.0",
+  "description": "A React Application. Functional analog and digital clock type screensaver for your web applications. Soon it will be pubished to npm to start use in apps.",
+  "main": "Clock.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DSK",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-idle-timer": "^5.1.1",
+    "date-fns": "^2.28.0"
+  }
+}
