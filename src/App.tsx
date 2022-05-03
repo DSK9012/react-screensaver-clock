@@ -79,7 +79,7 @@ function App() {
             </li>
           </ul>
         </div>
-        <div>
+        <div className='digital-clock-container'>
           <ul className='digital-clock'>
             <li className='digital-hours'>
               <span>{format(date, 'hh')}</span>
